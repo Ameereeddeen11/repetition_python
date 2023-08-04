@@ -30,3 +30,19 @@ print(bool(()))
 print(bool([]))
 print(bool({}))
 
+
+class myclass():
+    def _len_(self):
+        return 0 
+
+myobj = myclass()
+print(bool(myobj))
+
+
+def myFuntion():
+    return True
+
+if myFuntion():
+    print("my funtion is true")
+else:
+    print("my funtion is false") 
